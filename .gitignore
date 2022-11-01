@@ -1,0 +1,25 @@
+src/main/java/com/somejvm/generated
+src/main/antlr/gen/
+src/main/gen/
+
+# Default ignored files
+/testlang.iws
+
+*~
+*.DS_Store
+
+# gradle
+.gradle/
+build/
+out/
+classes/
+run/
+
+eclipse
+*.launch
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
