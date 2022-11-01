@@ -45,7 +45,7 @@ tasks {
 
     generateGrammarSource {
         maxHeapSize = "64m"
-        arguments = listOf("-visitor", "-package", "com.somejvm.generated")
+        arguments = listOf("-package", "com.somejvm.generated", "-visitor", "-no-listener")
 
         outputDirectory = File("src/main/java/com/somejvm/generated/")
     }
